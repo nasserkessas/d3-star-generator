@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#container {
+    display: inline-block;
+    width: 100vw;
+    height: 80vh;
+    background-color: #000;
+    z-index: -1;
+}
+
+.button {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
